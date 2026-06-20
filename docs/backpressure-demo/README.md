@@ -56,7 +56,7 @@ AssertionError: expected +0 to be 10 // Object.is equality
 
 ### CI gate failure
 After pushing this broken commit, GitHub Actions `CI — Test Gate` job fails automatically.
-CI run URL: [to be added after push]
+CI run URL: https://github.com/tungnguyenson-zigexn/react-portfolio-template/actions/runs/27867145702
 
 ---
 
@@ -87,4 +87,4 @@ Change: Reverted `clamp()` to return `max` for NaN input (original correct behav
 
 ### CI gate success
 After pushing this fix commit, GitHub Actions `CI — Test Gate` job passes automatically.
-CI run URL: [to be added once CI completes]
+CI run URL: https://github.com/tungnguyenson-zigexn/react-portfolio-template/actions/runs/27867206430
