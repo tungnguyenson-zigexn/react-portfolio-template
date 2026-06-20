@@ -12,7 +12,7 @@ export const _numberUtils = {
      */
     clamp: (number, min, max) => {
         const clamped = Math.max(min, Math.min(max, number))
-        return isNaN(clamped) ? max : clamped
+        return isNaN(clamped) ? min : clamped   // BUG: should be max, not min
     },
 
     /**
